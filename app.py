@@ -1,7 +1,4 @@
-
 from inference_sdk import InferenceHTTPClient
-from inference_sdk import 
-InferenceHTTPClient
 
 import streamlit as st
 import sqlite3
