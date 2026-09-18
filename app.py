@@ -1,9 +1,7 @@
-<<<<<<< HEAD
+
 from inference_sdk import InferenceHTTPClient
-=======
 from inference_sdk import 
 InferenceHTTPClient
->>>>>>> 3b67959 (Fix deployment dependencies)
 
 import streamlit as st
 import sqlite3
