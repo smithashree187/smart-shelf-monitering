@@ -1,7 +1,4 @@
-from inference_sdk import (
-    InferenceHTTPClient,
-    InferenceConfiguration
-)
+from inference_sdk import InferenceHTTPClient
 
 import streamlit as st
 import sqlite3
@@ -19,11 +16,7 @@ st.set_page_config(
 
 client = InferenceHTTPClient(
     api_url="https://serverless.roboflow.com",
-    api_key="mDTOEVaUTpvRC2APYYMp"
-).configure(
-    InferenceConfiguration(
-        api_key_transport="header"
-    )
+    api_key="YOUR_API_KEY"
 )
 
 # Minimum confidence required
