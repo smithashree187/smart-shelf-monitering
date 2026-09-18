@@ -16,7 +16,7 @@ st.set_page_config(
 
 client = InferenceHTTPClient(
     api_url="https://serverless.roboflow.com",
-    api_key="YOUR_API_KEY"
+    api_key="mDTOEVaUTpvRC2APYYMp"
 )
 
 # Minimum confidence required
